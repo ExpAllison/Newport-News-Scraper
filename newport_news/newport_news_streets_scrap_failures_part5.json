@@ -1,0 +1,82 @@
+[
+    {
+        "number": "450",
+        "street": "Center",
+        "streetType": "AVE"
+    },
+    {
+        "number": "418",
+        "street": "Chadwick",
+        "streetType": "PL"
+    },
+    {
+        "number": "204",
+        "street": "Charlotte",
+        "streetType": "DR"
+    },
+    {
+        "number": "1022",
+        "street": "Chartwell",
+        "streetType": "DR"
+    },
+    {
+        "number": "839",
+        "street": "Chatsworth",
+        "streetType": "DR"
+    },
+    {
+        "number": "1005",
+        "street": "Cherry Creek",
+        "streetType": "DR"
+    },
+    {
+        "number": "2214",
+        "street": "Chestnut",
+        "streetType": "AVE"
+    },
+    {
+        "number": "859",
+        "street": "Cheyenne",
+        "streetType": "DR"
+    },
+    {
+        "number": "901",
+        "street": "Christine",
+        "streetType": "CIR"
+    },
+    {
+        "number": "303",
+        "street": "Circuit",
+        "streetType": "LN"
+    },
+    {
+        "number": "377",
+        "street": "Circuit",
+        "streetType": "LN"
+    },
+    {
+        "number": "139",
+        "street": "Clifton",
+        "streetType": "CT"
+    },
+    {
+        "number": "892",
+        "street": "Cobham Hall",
+        "streetType": "CIR"
+    },
+    {
+        "number": "67",
+        "street": "Colombia",
+        "streetType": "DR"
+    },
+    {
+        "number": "80",
+        "street": "Colombia",
+        "streetType": "DR"
+    },
+    {
+        "number": "255",
+        "street": "Colony",
+        "streetType": "RD"
+    }
+]
