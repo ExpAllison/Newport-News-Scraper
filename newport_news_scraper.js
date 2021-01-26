@@ -32,8 +32,8 @@ let goToHome = async() => {
 
 let goHomeAndSearch = async (street, type, pageNum, overfull) => {
   await browser.close();
-  browser = await puppeteer.launch({'headless' : false});
-  //browser = await puppeteer.launch();
+  //browser = await puppeteer.launch({'headless' : false});
+  browser = await puppeteer.launch();
   page = await browser.newPage();
   await goToHome(page);
 
@@ -294,8 +294,8 @@ let scrapeStreet = async (street, type) => {
 
 
 let scrapeAllStreets = async (streetList, fileNum) => {
-  browser = await puppeteer.launch({'headless' : false});
-  //browser = await puppeteer.launch();
+  //browser = await puppeteer.launch({'headless' : false});
+  browser = await puppeteer.launch();
   page = await browser.newPage();
   await goToHome();
 
