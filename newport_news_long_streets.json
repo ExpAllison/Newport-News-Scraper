@@ -1,0 +1,136 @@
+{
+    "Newport News": [
+        {
+            "streetName": "26th",
+            "streetType": "ST",
+            "maxNumber": "1411",
+            "numRecords": "211"
+        },
+        {
+            "streetName": "27th",
+            "streetType": "ST",
+            "maxNumber": "1420",
+            "numRecords": "225"
+        },
+        {
+            "streetName": "28th",
+            "streetType": "ST",
+            "maxNumber": "1331",
+            "numRecords": "215"
+        },
+        {
+            "streetName": "29th",
+            "streetType": "ST",
+            "maxNumber": "1312",
+            "numRecords": "253"
+        },
+        {
+            "streetName": "30th",
+            "streetType": "ST",
+            "maxNumber": "1310",
+            "numRecords": "219"
+        },
+        {
+            "streetName": "Chestnut",
+            "streetType": "AVE",
+            "maxNumber": "5205",
+            "numRecords": "277"
+        },
+        {
+            "streetName": "Circuit",
+            "streetType": "LN",
+            "maxNumber": "380",
+            "numRecords": "283"
+        },
+        {
+            "streetName": "Colony",
+            "streetType": "RD",
+            "maxNumber": "575",
+            "numRecords": "211"
+        },
+        {
+            "streetName": "Day",
+            "streetType": "CIR",
+            "maxNumber": "12865",
+            "numRecords": "235"
+        },
+        {
+            "streetName": "Daybreak",
+            "streetType": "CIR",
+            "maxNumber": "12872",
+            "numRecords": "228"
+        },
+        {
+            "streetName": "Denbigh",
+            "streetType": "BLVD",
+            "maxNumber": "710",
+            "numRecords": "253"
+        },
+        {
+            "streetName": "Deputy",
+            "streetType": "LN",
+            "maxNumber": "396",
+            "numRecords": "218"
+        },
+        {
+            "streetName": "Harpersville",
+            "streetType": "RD",
+            "maxNumber": "859",
+            "numRecords": "265"
+        },
+        {
+            "streetName": "Lake",
+            "streetType": "DR",
+            "maxNumber": "1279",
+            "numRecords": "242"
+        },
+        {
+            "streetName": "Lucas Creek",
+            "streetType": "RD",
+            "maxNumber": "889",
+            "numRecords": "218"
+        },
+        {
+            "streetName": "Madison",
+            "streetType": "AVE",
+            "maxNumber": "5012",
+            "numRecords": "237"
+        },
+        {
+            "streetName": "Marshall",
+            "streetType": "AVE",
+            "maxNumber": "5913",
+            "numRecords": "242"
+        },
+        {
+            "streetName": "Orcutt",
+            "streetType": "AVE",
+            "maxNumber": "7416",
+            "numRecords": "223"
+        },
+        {
+            "streetName": "River",
+            "streetType": "RD",
+            "maxNumber": "7501",
+            "numRecords": "392"
+        },
+        {
+            "streetName": "Warwick",
+            "streetType": "BLVD",
+            "maxNumber": "10228",
+            "numRecords": "857"
+        },
+        {
+            "streetName": "Wickham",
+            "streetType": "AVE",
+            "maxNumber": "7709",
+            "numRecords": "212"
+        },
+        {
+            "streetName": "Willow",
+            "streetType": "DR",
+            "maxNumber": "1206",
+            "numRecords": "205"
+        }
+    ]
+}
