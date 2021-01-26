@@ -26,24 +26,24 @@ let goToHome = async() => {
     console.log(`${msg.args()[i]}`);
   });
 
-  await Promise.all([page.waitForNavigation(), page.click('#btAgree')]);
+  await Promise.all([page.waitForNavigation({'timeout' : 0}), page.click('#btAgree')]);
 }
 
 
 let goHomeAndSearch = async (street, type, pageNum, overfull) => {
   await browser.close();
-  //browser = await puppeteer.launch({'headless' : false});
-  browser = await puppeteer.launch();
+  browser = await puppeteer.launch({'headless' : false});
+  //browser = await puppeteer.launch();
   page = await browser.newPage();
   await goToHome(page);
 
   await page.select("#Select1", type);
   await page.type("#inpStreet", street);
   await page.select("#selPageSize", '50');
-  await Promise.all([page.waitForNavigation(), page.click('#btSearch')]);
+  await Promise.all([page.waitForNavigation({'timeout' : 0}), page.click('#btSearch')]);
   if(pageNum > 1){
     var pageSelector = await findPageNum(pageNum, overfull);
-    await Promise.all([page.waitForNavigation(), page.click(pageSelector), page.waitForTimeout(2000)]);
+    await Promise.all([page.waitForNavigation({'timeout' : 0}), page.click(pageSelector), page.waitForTimeout(2000)]);
   }
 }
 
@@ -56,7 +56,7 @@ let resetSearchBar = async() => {
   }
   catch(err){
     console.log('  Anomalous result! Going back...');
-    Promise.all([page.waitForNavigation(), page.goBack()]);
+    Promise.all([page.waitForNavigation({'timeout' : 0}), page.goBack()]);
   }
 }
 
@@ -78,9 +78,11 @@ let searchPageInfo = async () => {
 }
 
 
-let propertyPageInfo = async (rowNumber, street, type, pageNum, overfull) => {
-  let selector = 'tr.SearchResults:nth-child(' + rowNumber + ')';
-  await Promise.all([page.waitForNavigation(), page.click(selector)]);
+let propertyPageInfo = async (rowNumber, street, type, pageNum, overfull, oneEntry=false) => {
+  if(!oneEntry){
+    let selector = 'tr.SearchResults:nth-child(' + rowNumber + ')';
+    await Promise.all([page.waitForNavigation({'timeout' : 0}), page.click(selector)]);
+  }
 
   let isGood = await page.evaluate(() => {
     return document.querySelectorAll('.msg-body').length == 0;
@@ -96,7 +98,9 @@ let propertyPageInfo = async (rowNumber, street, type, pageNum, overfull) => {
       let acreage = elements[5].innerText;
       return {name, parcelID, number, neighborhood, acreage};
     });
-    await Promise.all([page.waitForNavigation(), page.goBack()]);
+    if(!oneEntry){
+      await Promise.all([page.waitForNavigation({'timeout' : 0}), page.goBack()]);
+    }
     return result;
   }
   else{
@@ -106,7 +110,6 @@ let propertyPageInfo = async (rowNumber, street, type, pageNum, overfull) => {
     let parcelID = '0';
     let neighborhood = 'UNK';
     let acreage = '0';
-    // await Promise.all([page.waitForNavigation(), page.goBack()]);
     await goHomeAndSearch(street, type, pageNum, overfull);
     return {name, parcelID, number, neighborhood, acreage};
   }
@@ -174,7 +177,7 @@ let scrapeStreet = async (street, type) => {
   await page.select("#Select1", type);
   await page.type("#inpStreet", street);
   await page.select("#selPageSize", '50');
-  await Promise.all([page.waitForNavigation(), page.click('#btSearch')]);
+  await Promise.all([page.waitForNavigation({'timeout' : 0}), page.click('#btSearch')]);
 
   var morePages = true;
   var allData = [];
@@ -224,16 +227,19 @@ let scrapeStreet = async (street, type) => {
     let entries = await page.evaluate(() => {
       return document.querySelectorAll('tr.SearchResults').length;
     });
-    if(entries == 0){
+    if(entries == 0 && datalets == 0){
       await resetSearchBar();
       break;
+    }
+    else if(entries == 0){
+      entries = 1;
     }
 
     let results = [];
   	for(let i = 0; i < entries; i++){
   		var rowNumber = i + 3;
       console.log('Scraping address: ' + generalInfo[i]['number'] + ' ' + street + ' ' + type + '...');
-      const result = await propertyPageInfo(rowNumber, street, type, pageNum, overfull);
+      const result = await propertyPageInfo(rowNumber, street, type, pageNum, overfull, (datalets > 0));
   		results.push(result);
   	}
 
@@ -258,11 +264,16 @@ let scrapeStreet = async (street, type) => {
         allData.push(data)
   	}
 
+    if(datalets > 0){
+      await Promise.all([page.waitForNavigation({'timeout' : 0}), page.click('li.sel:nth-child(2) > a:nth-child(1)'), page.waitForTimeout(2000)]);
+      break;
+    }
+
   	const nextSelector = await pageChangeSelector(overfull);
 
   	try{
   		console.log('Attempting to change pages with selector: ' + nextSelector +'...');
-  		await Promise.all([page.waitForNavigation(), page.click(nextSelector)]);
+  		await Promise.all([page.waitForNavigation({'timeout' : 0}), page.click(nextSelector)]);
       pageNum++;
   	}
   	catch(err){
@@ -283,8 +294,8 @@ let scrapeStreet = async (street, type) => {
 
 
 let scrapeAllStreets = async (streetList, fileNum) => {
-  //browser = await puppeteer.launch({'headless' : false});
-  browser = await puppeteer.launch();
+  browser = await puppeteer.launch({'headless' : false});
+  //browser = await puppeteer.launch();
   page = await browser.newPage();
   await goToHome();
 
