@@ -1,1 +1,172 @@
-[]
+[
+    {
+        "number": "843",
+        "street": "15th",
+        "streetType": "ST"
+    },
+    {
+        "number": "913",
+        "street": "17th",
+        "streetType": "ST"
+    },
+    {
+        "number": "1151",
+        "street": "18th",
+        "streetType": "ST"
+    },
+    {
+        "number": "755",
+        "street": "20th",
+        "streetType": "ST"
+    },
+    {
+        "number": "814",
+        "street": "21st",
+        "streetType": "ST"
+    },
+    {
+        "number": "843",
+        "street": "22nd",
+        "streetType": "ST"
+    },
+    {
+        "number": "839",
+        "street": "23rd",
+        "streetType": "ST"
+    },
+    {
+        "number": "1021",
+        "street": "24th",
+        "streetType": "ST"
+    },
+    {
+        "number": "1015",
+        "street": "25th",
+        "streetType": "ST"
+    },
+    {
+        "number": "653",
+        "street": "26th",
+        "streetType": "ST"
+    },
+    {
+        "number": "1224",
+        "street": "26th",
+        "streetType": "ST"
+    },
+    {
+        "number": "1115",
+        "street": "27th",
+        "streetType": "ST"
+    },
+    {
+        "number": "761",
+        "street": "28th",
+        "streetType": "ST"
+    },
+    {
+        "number": "653",
+        "street": "29th",
+        "streetType": "ST"
+    },
+    {
+        "number": "856",
+        "street": "30th",
+        "streetType": "ST"
+    },
+    {
+        "number": "816",
+        "street": "31st",
+        "streetType": "ST"
+    },
+    {
+        "number": "729",
+        "street": "32nd",
+        "streetType": "ST"
+    },
+    {
+        "number": "319",
+        "street": "33rd",
+        "streetType": "ST"
+    },
+    {
+        "number": "741",
+        "street": "34th",
+        "streetType": "ST"
+    },
+    {
+        "number": "1152",
+        "street": "35th",
+        "streetType": "ST"
+    },
+    {
+        "number": "911",
+        "street": "37th",
+        "streetType": "ST"
+    },
+    {
+        "number": "551",
+        "street": "41st",
+        "streetType": "ST"
+    },
+    {
+        "number": "1136",
+        "street": "42nd",
+        "streetType": "ST"
+    },
+    {
+        "number": "623",
+        "street": "45th",
+        "streetType": "ST"
+    },
+    {
+        "number": "338",
+        "street": "49th",
+        "streetType": "ST"
+    },
+    {
+        "number": "326",
+        "street": "54th",
+        "streetType": "ST"
+    },
+    {
+        "number": "330",
+        "street": "63rd",
+        "streetType": "ST"
+    },
+    {
+        "number": "1100",
+        "street": "72nd",
+        "streetType": "ST"
+    },
+    {
+        "number": "1204",
+        "street": "73rd",
+        "streetType": "ST"
+    },
+    {
+        "number": "1118",
+        "street": "75th",
+        "streetType": "ST"
+    },
+    {
+        "number": "1111",
+        "street": "78th",
+        "streetType": "ST"
+    },
+    {
+        "number": "1009",
+        "street": "80th",
+        "streetType": "ST"
+    },
+    {
+        "number": "549",
+        "street": "Aberthaw",
+        "streetType": "AVE"
+    },
+    {
+        "number": "320",
+        "street": "Advocate",
+        "streetType": "CT"
+    }
+]

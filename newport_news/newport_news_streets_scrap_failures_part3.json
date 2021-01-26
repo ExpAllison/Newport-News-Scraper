@@ -1,0 +1,72 @@
+[
+    {
+        "number": "54",
+        "street": "Bedford",
+        "streetType": "RD"
+    },
+    {
+        "number": "336",
+        "street": "Beech",
+        "streetType": "DR"
+    },
+    {
+        "number": "200",
+        "street": "Beechmont",
+        "streetType": "DR"
+    },
+    {
+        "number": "2",
+        "street": "Belinda",
+        "streetType": "DR"
+    },
+    {
+        "number": "5",
+        "street": "Belle",
+        "streetType": "CIR"
+    },
+    {
+        "number": "209",
+        "street": "Belray",
+        "streetType": "DR"
+    },
+    {
+        "number": "196",
+        "street": "Bentley",
+        "streetType": "DR"
+    },
+    {
+        "number": "5",
+        "street": "Bethune",
+        "streetType": "DR"
+    },
+    {
+        "number": "906",
+        "street": "Birchwood",
+        "streetType": "CT"
+    },
+    {
+        "number": "322",
+        "street": "Blair",
+        "streetType": "AVE"
+    },
+    {
+        "number": "147",
+        "street": "Bloxom",
+        "streetType": "DR"
+    },
+    {
+        "number": "98",
+        "street": "Bonita",
+        "streetType": "DR"
+    },
+    {
+        "number": "4",
+        "street": "Boxwood",
+        "streetType": "LN"
+    },
+    {
+        "number": "37",
+        "street": "Brandon",
+        "streetType": "RD"
+    }
+]

@@ -1,0 +1,52 @@
+[
+    {
+        "number": "202",
+        "street": "Amber",
+        "streetType": "CT"
+    },
+    {
+        "number": "921",
+        "street": "Andover",
+        "streetType": "CT"
+    },
+    {
+        "number": "729",
+        "street": "April",
+        "streetType": "LN"
+    },
+    {
+        "number": "2",
+        "street": "Arline",
+        "streetType": "DR"
+    },
+    {
+        "number": "611",
+        "street": "Ashford",
+        "streetType": "PL"
+    },
+    {
+        "number": "503",
+        "street": "Ashton Green",
+        "streetType": "BLVD"
+    },
+    {
+        "number": "2625",
+        "street": "Autumn",
+        "streetType": "CIR"
+    },
+    {
+        "number": "903",
+        "street": "Backspin",
+        "streetType": "CT"
+    },
+    {
+        "number": "13",
+        "street": "Barbour",
+        "streetType": "DR"
+    },
+    {
+        "number": "40",
+        "street": "Barron",
+        "streetType": "DR"
+    }
+]

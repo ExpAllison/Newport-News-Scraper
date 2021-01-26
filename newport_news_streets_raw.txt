@@ -8,7 +8,6 @@
 17th Street
 18th Street
 19th Street
-1st Light Court
 20th Street
 21st Street
 22nd Street
@@ -189,7 +188,6 @@ Barney Court
 Barrie Circle
 Barrister Place
 Barron Drive
-Barron Drive
 Basswood Drive
 Batson Drive
 Battery Place
@@ -268,7 +266,6 @@ Bloxom Drive
 Blue Point Terrace
 Bluebird Lane
 Bluff Terrace
-Bluff Terrace
 Blunt Court
 Bond Circle
 Bonita Drive
@@ -283,7 +280,6 @@ Botetourt Road
 Boucher Drive
 Boulder Drive
 Boundary Road
-Boundary Road East
 Boundary Road East
 Bowie Court
 Bowman Lane
@@ -767,6 +763,7 @@ Field Stone Lane
 Filson Court
 Fincastle Drive
 Finch Place
+First Light Court
 Fischer Drive
 Fishers Landing Road
 Fishing Point Drive
