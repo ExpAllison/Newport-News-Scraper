@@ -1,0 +1,87 @@
+[
+    {
+        "number": "463",
+        "street": "Lees Mill",
+        "streetType": "DR"
+    },
+    {
+        "number": "672",
+        "street": "Leonard",
+        "streetType": "LN"
+    },
+    {
+        "number": "509",
+        "street": "Lester",
+        "streetType": "RD"
+    },
+    {
+        "number": "155",
+        "street": "Linbrook",
+        "streetType": "DR"
+    },
+    {
+        "number": "831",
+        "street": "Lipton",
+        "streetType": "DR"
+    },
+    {
+        "number": "7",
+        "street": "Lois",
+        "streetType": "LN"
+    },
+    {
+        "number": "126",
+        "street": "Longwood",
+        "streetType": "DR"
+    },
+    {
+        "number": "298",
+        "street": "Louise",
+        "streetType": "DR"
+    },
+    {
+        "number": "319",
+        "street": "Lucas Creek",
+        "streetType": "RD"
+    },
+    {
+        "number": "538",
+        "street": "Lula Carter",
+        "streetType": "RD"
+    },
+    {
+        "number": "301",
+        "street": "Lynchburg",
+        "streetType": "DR"
+    },
+    {
+        "number": "6",
+        "street": "Macirvin",
+        "streetType": "DR"
+    },
+    {
+        "number": "3105",
+        "street": "Madison",
+        "streetType": "AVE"
+    },
+    {
+        "number": "117",
+        "street": "Madison",
+        "streetType": "LN"
+    },
+    {
+        "number": "705",
+        "street": "Main",
+        "streetType": "ST"
+    },
+    {
+        "number": "340",
+        "street": "Malden",
+        "streetType": "LN"
+    },
+    {
+        "number": "1504",
+        "street": "Malibu",
+        "streetType": "PL"
+    }
+]

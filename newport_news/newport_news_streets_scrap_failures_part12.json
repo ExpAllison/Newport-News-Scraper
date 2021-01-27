@@ -1,0 +1,62 @@
+[
+    {
+        "number": "116",
+        "street": "Keith",
+        "streetType": "RD"
+    },
+    {
+        "number": "140",
+        "street": "Kenilworth",
+        "streetType": "DR"
+    },
+    {
+        "number": "11",
+        "street": "Keswick",
+        "streetType": "CIR"
+    },
+    {
+        "number": "765",
+        "street": "Kings Ridge",
+        "streetType": "DR"
+    },
+    {
+        "number": "80",
+        "street": "Knollwood",
+        "streetType": "DR"
+    },
+    {
+        "number": "917",
+        "street": "Lacon",
+        "streetType": "DR"
+    },
+    {
+        "number": "629",
+        "street": "Lafayette",
+        "streetType": "TER"
+    },
+    {
+        "number": "210",
+        "street": "Lake",
+        "streetType": "DR"
+    },
+    {
+        "number": "65",
+        "street": "Lakeside",
+        "streetType": "DR"
+    },
+    {
+        "number": "851",
+        "street": "Lancaster",
+        "streetType": "LN"
+    },
+    {
+        "number": "2",
+        "street": "Lantern",
+        "streetType": "CIR"
+    },
+    {
+        "number": "117",
+        "street": "Laurel",
+        "streetType": "CT"
+    }
+]
