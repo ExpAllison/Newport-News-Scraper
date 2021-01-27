@@ -1,0 +1,82 @@
+[
+    {
+        "number": "62",
+        "street": "Hopkins",
+        "streetType": "ST"
+    },
+    {
+        "number": "12",
+        "street": "Howard",
+        "streetType": "CT"
+    },
+    {
+        "number": "10",
+        "street": "Huguenot",
+        "streetType": "RD"
+    },
+    {
+        "number": "5200",
+        "street": "Huntington",
+        "streetType": "AVE"
+    },
+    {
+        "number": "400",
+        "street": "Hustings",
+        "streetType": "LN"
+    },
+    {
+        "number": "125",
+        "street": "Huxley",
+        "streetType": "PL"
+    },
+    {
+        "number": "127",
+        "street": "Inland View",
+        "streetType": "DR"
+    },
+    {
+        "number": "521",
+        "street": "Ivy",
+        "streetType": "AVE"
+    },
+    {
+        "number": "951",
+        "street": "Ivystone",
+        "streetType": "WAY"
+    },
+    {
+        "number": "17",
+        "street": "Jacobs",
+        "streetType": "LN"
+    },
+    {
+        "number": "712",
+        "street": "James",
+        "streetType": "DR"
+    },
+    {
+        "number": "249",
+        "street": "James River",
+        "streetType": "DR"
+    },
+    {
+        "number": "2003",
+        "street": "Jefferson",
+        "streetType": "AVE"
+    },
+    {
+        "number": "5828",
+        "street": "Jefferson",
+        "streetType": "AVE"
+    },
+    {
+        "number": "163",
+        "street": "Jenness",
+        "streetType": "LN"
+    },
+    {
+        "number": "3",
+        "street": "Jordan",
+        "streetType": "DR"
+    }
+]

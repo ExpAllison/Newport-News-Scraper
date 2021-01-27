@@ -328,14 +328,14 @@ let scrapeAllStreets = async (streetList, fileNum) => {
 }
 
 
-let scrapeDividedStreetList = async (streetList) => {
-  for(var i = 0; i < streetList.length; i += 100){
+let scrapeDividedStreetList = async (streetList, startNum=0) => {
+  for(var i = startNum; i < streetList.length; i += 100){
     await scrapeAllStreets(streetList.slice(i, i + 100), i/100 + 1);
   }
 }
 
 var streetList = readStreetList('./newport_news_streets.json');
-var allStreets = scrapeDividedStreetList(streetList['Newport News']);
+var allStreets = scrapeDividedStreetList(streetList['Newport News'], 0);
 
 //.contentpanel > div:nth-child(1) > table:nth-child(2) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(3) > td:nth-child(1) > center:nth-child(2) > table:nth-child(4) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(2) > font:nth-child(2)
 //.contentpanel > div:nth-child(1) > table:nth-child(2) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(3) > td:nth-child(1) > center:nth-child(2) > table:nth-child(3) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(2) > font:nth-child(2)

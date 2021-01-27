@@ -1,0 +1,67 @@
+[
+    {
+        "number": "603",
+        "street": "Hammond",
+        "streetType": "ST"
+    },
+    {
+        "number": "1850",
+        "street": "Hampton",
+        "streetType": "AVE"
+    },
+    {
+        "number": "931",
+        "street": "Harlech",
+        "streetType": "PL"
+    },
+    {
+        "number": "664",
+        "street": "Harpersville",
+        "streetType": "RD"
+    },
+    {
+        "number": "1249",
+        "street": "Hatchland",
+        "streetType": "PL"
+    },
+    {
+        "number": "628",
+        "street": "Haystack Landing",
+        "streetType": "RD"
+    },
+    {
+        "number": "9",
+        "street": "Helen",
+        "streetType": "DR"
+    },
+    {
+        "number": "112",
+        "street": "Henry Clay",
+        "streetType": "RD"
+    },
+    {
+        "number": "88",
+        "street": "Hermitage",
+        "streetType": "RD"
+    },
+    {
+        "number": "168",
+        "street": "Hidden Lake",
+        "streetType": "PL"
+    },
+    {
+        "number": "158",
+        "street": "Highwood",
+        "streetType": "CIR"
+    },
+    {
+        "number": "401",
+        "street": "Hilltop",
+        "streetType": "DR"
+    },
+    {
+        "number": "854",
+        "street": "Holbrook",
+        "streetType": "DR"
+    }
+]
