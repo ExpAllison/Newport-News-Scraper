@@ -1,0 +1,942 @@
+[
+    {
+        "name": "MOORE DOROTHY MARIE,",
+        "number": "202",
+        "street": "Yves",
+        "streetType": "CIR",
+        "propertyType": "Residential Single Family",
+        "parcelID": "260000231",
+        "neighborhood": "R09SF124 - LAFAYETTE TERRACE",
+        "acreage": ".21"
+    },
+    {
+        "name": "HARRIS JOHN G, VANEGAS YESENIA E",
+        "number": "203",
+        "street": "Yves",
+        "streetType": "CIR",
+        "propertyType": "Residential Single Family",
+        "parcelID": "260000226",
+        "neighborhood": "R09SF124 - LAFAYETTE TERRACE",
+        "acreage": ".21"
+    },
+    {
+        "name": "WARD CHARLES R JR, WILLINGHAM JACQUELINE E",
+        "number": "204",
+        "street": "Yves",
+        "streetType": "CIR",
+        "propertyType": "Residential Single Family",
+        "parcelID": "260000230",
+        "neighborhood": "R09SF124 - LAFAYETTE TERRACE",
+        "acreage": ".18"
+    },
+    {
+        "name": "WARLITNER TOM W IV,",
+        "number": "205",
+        "street": "Yves",
+        "streetType": "CIR",
+        "propertyType": "Residential Single Family",
+        "parcelID": "260000227",
+        "neighborhood": "R09SF124 - LAFAYETTE TERRACE",
+        "acreage": ".19"
+    },
+    {
+        "name": "PIERCE MAJOR IV & ERIN PIERCE,",
+        "number": "206",
+        "street": "Yves",
+        "streetType": "CIR",
+        "propertyType": "Residential Single Family",
+        "parcelID": "260000229",
+        "neighborhood": "R09SF124 - LAFAYETTE TERRACE",
+        "acreage": ".17"
+    },
+    {
+        "name": "PHAM KINGSLEY VO, PHAM LACEY VO",
+        "number": "207",
+        "street": "Yves",
+        "streetType": "CIR",
+        "propertyType": "Residential Single Family",
+        "parcelID": "260000228",
+        "neighborhood": "R09SF124 - LAFAYETTE TERRACE",
+        "acreage": ".27"
+    },
+    {
+        "name": "LAWTON CLIFFORD L,",
+        "number": "24",
+        "street": "Zenith",
+        "streetType": "LOOP",
+        "propertyType": "Condominium",
+        "parcelID": "224000578",
+        "neighborhood": "R09CR142 - MERIDIAN PARK SIDE",
+        "acreage": ".05"
+    },
+    {
+        "name": "COSIO SAHARAY E,",
+        "number": "26",
+        "street": "Zenith",
+        "streetType": "LOOP",
+        "propertyType": "Condominium",
+        "parcelID": "224000579",
+        "neighborhood": "R09CR142 - MERIDIAN PARK SIDE",
+        "acreage": ".05"
+    },
+    {
+        "name": "ROBINSON ANTHONY K,",
+        "number": "28",
+        "street": "Zenith",
+        "streetType": "LOOP",
+        "propertyType": "Condominium",
+        "parcelID": "224000580",
+        "neighborhood": "R09CR142 - MERIDIAN PARK SIDE",
+        "acreage": ".05"
+    },
+    {
+        "name": "WILLIAMS ROBERT A JR & KATHERINE, M RHODES-WILLIAMS",
+        "number": "30",
+        "street": "Zenith",
+        "streetType": "LOOP",
+        "propertyType": "Condominium",
+        "parcelID": "224000581",
+        "neighborhood": "R09CR142 - MERIDIAN PARK SIDE",
+        "acreage": ".05"
+    },
+    {
+        "name": "GAINES ROBERT W,",
+        "number": "32",
+        "street": "Zenith",
+        "streetType": "LOOP",
+        "propertyType": "Condominium",
+        "parcelID": "224000582",
+        "neighborhood": "R09CR142 - MERIDIAN PARK SIDE",
+        "acreage": ".05"
+    },
+    {
+        "name": "KVATERNIK DANIEL,",
+        "number": "34",
+        "street": "Zenith",
+        "streetType": "LOOP",
+        "propertyType": "Condominium",
+        "parcelID": "224000572",
+        "neighborhood": "R09CR142 - MERIDIAN PARK SIDE",
+        "acreage": ".05"
+    },
+    {
+        "name": "CHOU AMANDA,",
+        "number": "36",
+        "street": "Zenith",
+        "streetType": "LOOP",
+        "propertyType": "Condominium",
+        "parcelID": "224000573",
+        "neighborhood": "R09CR142 - MERIDIAN PARK SIDE",
+        "acreage": ".05"
+    },
+    {
+        "name": "PAXTON WILLIAM J & DEBRA A PAXTON,",
+        "number": "38",
+        "street": "Zenith",
+        "streetType": "LOOP",
+        "propertyType": "Condominium",
+        "parcelID": "224000574",
+        "neighborhood": "R09CR142 - MERIDIAN PARK SIDE",
+        "acreage": ".05"
+    },
+    {
+        "name": "EVANS PEGGY,",
+        "number": "40",
+        "street": "Zenith",
+        "streetType": "LOOP",
+        "propertyType": "Condominium",
+        "parcelID": "224000575",
+        "neighborhood": "R09CR142 - MERIDIAN PARK SIDE",
+        "acreage": ".05"
+    },
+    {
+        "name": "NIXON CHARLES E JR,",
+        "number": "42",
+        "street": "Zenith",
+        "streetType": "LOOP",
+        "propertyType": "Condominium",
+        "parcelID": "224000576",
+        "neighborhood": "R09CR142 - MERIDIAN PARK SIDE",
+        "acreage": ".05"
+    },
+    {
+        "name": "ARCHIBALD DIONNE L,",
+        "number": "44",
+        "street": "Zenith",
+        "streetType": "LOOP",
+        "propertyType": "Condominium",
+        "parcelID": "224000577",
+        "neighborhood": "R09CR142 - MERIDIAN PARK SIDE",
+        "acreage": ".05"
+    },
+    {
+        "name": "MOORE SHANNON,",
+        "number": "60",
+        "street": "Zenith",
+        "streetType": "LOOP",
+        "propertyType": "Condominium",
+        "parcelID": "224000564",
+        "neighborhood": "R09CR142 - MERIDIAN PARK SIDE",
+        "acreage": ".04"
+    },
+    {
+        "name": "NIXON CLINTON M,",
+        "number": "62",
+        "street": "Zenith",
+        "streetType": "LOOP",
+        "propertyType": "Condominium",
+        "parcelID": "224000565",
+        "neighborhood": "R09CR142 - MERIDIAN PARK SIDE",
+        "acreage": ".04"
+    },
+    {
+        "name": "ANDERSON SHANICE DACHELE,",
+        "number": "64",
+        "street": "Zenith",
+        "streetType": "LOOP",
+        "propertyType": "Condominium",
+        "parcelID": "224000566",
+        "neighborhood": "R09CR142 - MERIDIAN PARK SIDE",
+        "acreage": ".04"
+    },
+    {
+        "name": "HASKINS DAVID R, HASKINS KIMBERLY L",
+        "number": "66",
+        "street": "Zenith",
+        "streetType": "LOOP",
+        "propertyType": "Condominium",
+        "parcelID": "224000567",
+        "neighborhood": "R09CR142 - MERIDIAN PARK SIDE",
+        "acreage": ".04"
+    },
+    {
+        "name": "AMBROSINO JAMES J,",
+        "number": "68",
+        "street": "Zenith",
+        "streetType": "LOOP",
+        "propertyType": "Condominium",
+        "parcelID": "224000568",
+        "neighborhood": "R09CR142 - MERIDIAN PARK SIDE",
+        "acreage": ".04"
+    },
+    {
+        "name": "BOWE KEVIN,",
+        "number": "69",
+        "street": "Zenith",
+        "streetType": "LOOP",
+        "propertyType": "Condominium",
+        "parcelID": "224000622",
+        "neighborhood": "R09CR142 - MERIDIAN PARK SIDE",
+        "acreage": ".04"
+    },
+    {
+        "name": "ANDERSON DELSHAWN D,",
+        "number": "70",
+        "street": "Zenith",
+        "streetType": "LOOP",
+        "propertyType": "Condominium",
+        "parcelID": "224000569",
+        "neighborhood": "R09CR142 - MERIDIAN PARK SIDE",
+        "acreage": ".04"
+    },
+    {
+        "name": "POLK CALVIN C,",
+        "number": "71",
+        "street": "Zenith",
+        "streetType": "LOOP",
+        "propertyType": "Condominium",
+        "parcelID": "224000623",
+        "neighborhood": "R09CR142 - MERIDIAN PARK SIDE",
+        "acreage": ".04"
+    },
+    {
+        "name": "MCQUEEN JEREMY,",
+        "number": "72",
+        "street": "Zenith",
+        "streetType": "LOOP",
+        "propertyType": "Condominium",
+        "parcelID": "224000570",
+        "neighborhood": "R09CR142 - MERIDIAN PARK SIDE",
+        "acreage": ".04"
+    },
+    {
+        "name": "KING CEDRIC II, KING CEDRIC FERNANDO II",
+        "number": "73",
+        "street": "Zenith",
+        "streetType": "LOOP",
+        "propertyType": "Condominium",
+        "parcelID": "224000624",
+        "neighborhood": "R09CR142 - MERIDIAN PARK SIDE",
+        "acreage": ".04"
+    },
+    {
+        "name": "LEWANDOWSKI DEBORAH S,",
+        "number": "74",
+        "street": "Zenith",
+        "streetType": "LOOP",
+        "propertyType": "Condominium",
+        "parcelID": "224000571",
+        "neighborhood": "R09CR142 - MERIDIAN PARK SIDE",
+        "acreage": ".04"
+    },
+    {
+        "name": "DURANT ADRINA D,",
+        "number": "75",
+        "street": "Zenith",
+        "streetType": "LOOP",
+        "propertyType": "Condominium",
+        "parcelID": "224000625",
+        "neighborhood": "R09CR142 - MERIDIAN PARK SIDE",
+        "acreage": ".04"
+    },
+    {
+        "name": "WILLIAMS AMY N,",
+        "number": "76",
+        "street": "Zenith",
+        "streetType": "LOOP",
+        "propertyType": "Condominium",
+        "parcelID": "224000601",
+        "neighborhood": "R09CR142 - MERIDIAN PARK SIDE",
+        "acreage": ".03"
+    },
+    {
+        "name": "WILSON DAISHA B,",
+        "number": "77",
+        "street": "Zenith",
+        "streetType": "LOOP",
+        "propertyType": "Condominium",
+        "parcelID": "224000626",
+        "neighborhood": "R09CR142 - MERIDIAN PARK SIDE",
+        "acreage": ".04"
+    },
+    {
+        "name": "MARTIN KIRIL,",
+        "number": "78",
+        "street": "Zenith",
+        "streetType": "LOOP",
+        "propertyType": "Condominium",
+        "parcelID": "224000602",
+        "neighborhood": "R09CR142 - MERIDIAN PARK SIDE",
+        "acreage": ".03"
+    },
+    {
+        "name": "HAYWARD BRIAN Z,",
+        "number": "79",
+        "street": "Zenith",
+        "streetType": "LOOP",
+        "propertyType": "Condominium",
+        "parcelID": "224000627",
+        "neighborhood": "R09CR142 - MERIDIAN PARK SIDE",
+        "acreage": ".04"
+    },
+    {
+        "name": "REYNOLDS DEVIN G,",
+        "number": "80",
+        "street": "Zenith",
+        "streetType": "LOOP",
+        "propertyType": "Condominium",
+        "parcelID": "224000603",
+        "neighborhood": "R09CR142 - MERIDIAN PARK SIDE",
+        "acreage": ".03"
+    },
+    {
+        "name": "COBB MICHAEL A JR & KATHRYN E, COBB",
+        "number": "81",
+        "street": "Zenith",
+        "streetType": "LOOP",
+        "propertyType": "Condominium",
+        "parcelID": "224000628",
+        "neighborhood": "R09CR142 - MERIDIAN PARK SIDE",
+        "acreage": ".04"
+    },
+    {
+        "name": "MIXON ALYCIA N,",
+        "number": "82",
+        "street": "Zenith",
+        "streetType": "LOOP",
+        "propertyType": "Condominium",
+        "parcelID": "224000604",
+        "neighborhood": "R09CR142 - MERIDIAN PARK SIDE",
+        "acreage": ".03"
+    },
+    {
+        "name": "WARD LINDLEY M, WARD JACQUES A",
+        "number": "83",
+        "street": "Zenith",
+        "streetType": "LOOP",
+        "propertyType": "Condominium",
+        "parcelID": "224000629",
+        "neighborhood": "R09CR142 - MERIDIAN PARK SIDE",
+        "acreage": ".04"
+    },
+    {
+        "name": "HARRIS JOSHUA I,",
+        "number": "84",
+        "street": "Zenith",
+        "streetType": "LOOP",
+        "propertyType": "Condominium",
+        "parcelID": "224000605",
+        "neighborhood": "R09CR142 - MERIDIAN PARK SIDE",
+        "acreage": ".03"
+    },
+    {
+        "name": "JOHNSON TRAVARES B,",
+        "number": "85",
+        "street": "Zenith",
+        "streetType": "LOOP",
+        "propertyType": "Condominium",
+        "parcelID": "224000630",
+        "neighborhood": "R09CR142 - MERIDIAN PARK SIDE",
+        "acreage": ".04"
+    },
+    {
+        "name": "CHERRY DEVIN L,",
+        "number": "86",
+        "street": "Zenith",
+        "streetType": "LOOP",
+        "propertyType": "Condominium",
+        "parcelID": "224000606",
+        "neighborhood": "R09CR142 - MERIDIAN PARK SIDE",
+        "acreage": "3"
+    },
+    {
+        "name": "PAUL JUDEA N,",
+        "number": "87",
+        "street": "Zenith",
+        "streetType": "LOOP",
+        "propertyType": "Condominium",
+        "parcelID": "224000631",
+        "neighborhood": "R09CR142 - MERIDIAN PARK SIDE",
+        "acreage": ".04"
+    },
+    {
+        "name": "MCALLISTER AARON M, MCALLISTER CHRYSTAL R",
+        "number": "88",
+        "street": "Zenith",
+        "streetType": "LOOP",
+        "propertyType": "Condominium",
+        "parcelID": "224000607",
+        "neighborhood": "R09CR142 - MERIDIAN PARK SIDE",
+        "acreage": ".03"
+    },
+    {
+        "name": "LYLES MONICA,",
+        "number": "89",
+        "street": "Zenith",
+        "streetType": "LOOP",
+        "propertyType": "Condominium",
+        "parcelID": "224000632",
+        "neighborhood": "R09CR142 - MERIDIAN PARK SIDE",
+        "acreage": ".04"
+    },
+    {
+        "name": "HOUSE DRAKE P, RAWLS SARAH A",
+        "number": "90",
+        "street": "Zenith",
+        "streetType": "LOOP",
+        "propertyType": "Condominium",
+        "parcelID": "224000608",
+        "neighborhood": "R09CR142 - MERIDIAN PARK SIDE",
+        "acreage": ".03"
+    },
+    {
+        "name": "CONE CHARLES R JR,",
+        "number": "92",
+        "street": "Zenith",
+        "streetType": "LOOP",
+        "propertyType": "Condominium",
+        "parcelID": "224000609",
+        "neighborhood": "R09CR142 - MERIDIAN PARK SIDE",
+        "acreage": ".03"
+    },
+    {
+        "name": "PROKUP ERIC M,",
+        "number": "94",
+        "street": "Zenith",
+        "streetType": "LOOP",
+        "propertyType": "Condominium",
+        "parcelID": "224000610",
+        "neighborhood": "R09CR142 - MERIDIAN PARK SIDE",
+        "acreage": ".03"
+    },
+    {
+        "name": "KOGEL FREDDY,",
+        "number": "100",
+        "street": "Zenith",
+        "streetType": "LOOP",
+        "propertyType": "Condominium",
+        "parcelID": "224000583",
+        "neighborhood": "R09CR142 - MERIDIAN PARK SIDE",
+        "acreage": ".03"
+    },
+    {
+        "name": "THOMAS-KERSEY REGINA,",
+        "number": "101",
+        "street": "Zenith",
+        "streetType": "LOOP",
+        "propertyType": "Condominium",
+        "parcelID": "224000513",
+        "neighborhood": "R09CR142 - MERIDIAN PARK SIDE",
+        "acreage": ".03"
+    },
+    {
+        "name": "JACKSON JEANETTA,",
+        "number": "102",
+        "street": "Zenith",
+        "streetType": "LOOP",
+        "propertyType": "Condominium",
+        "parcelID": "224000584",
+        "neighborhood": "R09CR142 - MERIDIAN PARK SIDE",
+        "acreage": ".03"
+    },
+    {
+        "name": "SMITH KEVIN L,",
+        "number": "103",
+        "street": "Zenith",
+        "streetType": "LOOP",
+        "propertyType": "Condominium",
+        "parcelID": "224000514",
+        "neighborhood": "R09CR142 - MERIDIAN PARK SIDE",
+        "acreage": ".05"
+    },
+    {
+        "name": "SMITH ANTHONY,",
+        "number": "104",
+        "street": "Zenith",
+        "streetType": "LOOP",
+        "propertyType": "Condominium",
+        "parcelID": "224000585",
+        "neighborhood": "R09CR142 - MERIDIAN PARK SIDE",
+        "acreage": ".03"
+    },
+    {
+        "name": "MYERS ERIKA L,",
+        "number": "105",
+        "street": "Zenith",
+        "streetType": "LOOP",
+        "propertyType": "Condominium",
+        "parcelID": "224000515",
+        "neighborhood": "R09CR142 - MERIDIAN PARK SIDE",
+        "acreage": ".03"
+    },
+    {
+        "name": "SMITH HOPE A,",
+        "number": "106",
+        "street": "Zenith",
+        "streetType": "LOOP",
+        "propertyType": "Condominium",
+        "parcelID": "224000586",
+        "neighborhood": "R09CR142 - MERIDIAN PARK SIDE",
+        "acreage": ".03"
+    },
+    {
+        "name": "TAYLOR TIANA,",
+        "number": "107",
+        "street": "Zenith",
+        "streetType": "LOOP",
+        "propertyType": "Condominium",
+        "parcelID": "224000516",
+        "neighborhood": "R09CR142 - MERIDIAN PARK SIDE",
+        "acreage": ".05"
+    },
+    {
+        "name": "OWENS CHELSEY R,",
+        "number": "108",
+        "street": "Zenith",
+        "streetType": "LOOP",
+        "propertyType": "Condominium",
+        "parcelID": "224000587",
+        "neighborhood": "R09CR142 - MERIDIAN PARK SIDE",
+        "acreage": ".03"
+    },
+    {
+        "name": "THOMPSON TIFFANY J,",
+        "number": "109",
+        "street": "Zenith",
+        "streetType": "LOOP",
+        "propertyType": "Condominium",
+        "parcelID": "224000517",
+        "neighborhood": "R09CR142 - MERIDIAN PARK SIDE",
+        "acreage": ".03"
+    },
+    {
+        "name": "VEGA JODY L, DELGADO LUIS ADOLFO VEGA",
+        "number": "110",
+        "street": "Zenith",
+        "streetType": "LOOP",
+        "propertyType": "Condominium",
+        "parcelID": "224000588",
+        "neighborhood": "R09CR142 - MERIDIAN PARK SIDE",
+        "acreage": ".03"
+    },
+    {
+        "name": "BEALE WILLIAM A & CHERYL D BEALE,",
+        "number": "111",
+        "street": "Zenith",
+        "streetType": "LOOP",
+        "propertyType": "Condominium",
+        "parcelID": "224000518",
+        "neighborhood": "R09CR142 - MERIDIAN PARK SIDE",
+        "acreage": ".05"
+    },
+    {
+        "name": "DUFFY MARCUS,",
+        "number": "112",
+        "street": "Zenith",
+        "streetType": "LOOP",
+        "propertyType": "Condominium",
+        "parcelID": "224000589",
+        "neighborhood": "R09CR142 - MERIDIAN PARK SIDE",
+        "acreage": ".03"
+    },
+    {
+        "name": "O'HANLON DARA L,",
+        "number": "113",
+        "street": "Zenith",
+        "streetType": "LOOP",
+        "propertyType": "Condominium",
+        "parcelID": "224000519",
+        "neighborhood": "R09CR142 - MERIDIAN PARK SIDE",
+        "acreage": ".03"
+    },
+    {
+        "name": "SONG IN HYE,",
+        "number": "114",
+        "street": "Zenith",
+        "streetType": "LOOP",
+        "propertyType": "Condominium",
+        "parcelID": "224000590",
+        "neighborhood": "R09CR142 - MERIDIAN PARK SIDE",
+        "acreage": ".03"
+    },
+    {
+        "name": "FELL ANGELA,",
+        "number": "115",
+        "street": "Zenith",
+        "streetType": "LOOP",
+        "propertyType": "Condominium",
+        "parcelID": "224000520",
+        "neighborhood": "R09CR142 - MERIDIAN PARK SIDE",
+        "acreage": ".05"
+    },
+    {
+        "name": "BIGGS ANGELA K,",
+        "number": "116",
+        "street": "Zenith",
+        "streetType": "LOOP",
+        "propertyType": "Condominium",
+        "parcelID": "224000591",
+        "neighborhood": "R09CR142 - MERIDIAN PARK SIDE",
+        "acreage": ".03"
+    },
+    {
+        "name": "ELLIS FAITH N,",
+        "number": "117",
+        "street": "Zenith",
+        "streetType": "LOOP",
+        "propertyType": "Condominium",
+        "parcelID": "224000521",
+        "neighborhood": "R09CR142 - MERIDIAN PARK SIDE",
+        "acreage": ".05"
+    },
+    {
+        "name": "FRISBY SETH B,",
+        "number": "118",
+        "street": "Zenith",
+        "streetType": "LOOP",
+        "propertyType": "Condominium",
+        "parcelID": "224000592",
+        "neighborhood": "R09CR142 - MERIDIAN PARK SIDE",
+        "acreage": ".03"
+    },
+    {
+        "name": "DAVIS CYNTHIA L,",
+        "number": "119",
+        "street": "Zenith",
+        "streetType": "LOOP",
+        "propertyType": "Condominium",
+        "parcelID": "224000522",
+        "neighborhood": "R09CR142 - MERIDIAN PARK SIDE",
+        "acreage": ".05"
+    },
+    {
+        "name": "HUMPHRIES RICHARD E,",
+        "number": "120",
+        "street": "Zenith",
+        "streetType": "LOOP",
+        "propertyType": "Condominium",
+        "parcelID": "224000633",
+        "neighborhood": "R09CR142 - MERIDIAN PARK SIDE",
+        "acreage": ".04"
+    },
+    {
+        "name": "ALSTON DJAVON R,",
+        "number": "121",
+        "street": "Zenith",
+        "streetType": "LOOP",
+        "propertyType": "Condominium",
+        "parcelID": "224000643",
+        "neighborhood": "R09CR142 - MERIDIAN PARK SIDE",
+        "acreage": ".03"
+    },
+    {
+        "name": "JONES REGINALD R,",
+        "number": "122",
+        "street": "Zenith",
+        "streetType": "LOOP",
+        "propertyType": "Condominium",
+        "parcelID": "224000634",
+        "neighborhood": "R09CR142 - MERIDIAN PARK SIDE",
+        "acreage": ".04"
+    },
+    {
+        "name": "FOWLKES KYLE,",
+        "number": "123",
+        "street": "Zenith",
+        "streetType": "LOOP",
+        "propertyType": "Condominium",
+        "parcelID": "224000644",
+        "neighborhood": "R09CR142 - MERIDIAN PARK SIDE",
+        "acreage": ".03"
+    },
+    {
+        "name": "ADAMS-BURT JANICE G,",
+        "number": "124",
+        "street": "Zenith",
+        "streetType": "LOOP",
+        "propertyType": "Condominium",
+        "parcelID": "224000635",
+        "neighborhood": "R09CR142 - MERIDIAN PARK SIDE",
+        "acreage": ".04"
+    },
+    {
+        "name": "TAYLOR TAMEKA P,",
+        "number": "125",
+        "street": "Zenith",
+        "streetType": "LOOP",
+        "propertyType": "Condominium",
+        "parcelID": "224000645",
+        "neighborhood": "R09CR142 - MERIDIAN PARK SIDE",
+        "acreage": ".03"
+    },
+    {
+        "name": "JAIN DANNY,",
+        "number": "126",
+        "street": "Zenith",
+        "streetType": "LOOP",
+        "propertyType": "Condominium",
+        "parcelID": "224000636",
+        "neighborhood": "R09CR142 - MERIDIAN PARK SIDE",
+        "acreage": ".04"
+    },
+    {
+        "name": "COLEMAN GEORGE W IV,",
+        "number": "127",
+        "street": "Zenith",
+        "streetType": "LOOP",
+        "propertyType": "Condominium",
+        "parcelID": "224000646",
+        "neighborhood": "R09CR142 - MERIDIAN PARK SIDE",
+        "acreage": ".03"
+    },
+    {
+        "name": "GARRY TELIA,",
+        "number": "128",
+        "street": "Zenith",
+        "streetType": "LOOP",
+        "propertyType": "Condominium",
+        "parcelID": "224000637",
+        "neighborhood": "R09CR142 - MERIDIAN PARK SIDE",
+        "acreage": ".04"
+    },
+    {
+        "name": "MOORE ANECIA L,",
+        "number": "129",
+        "street": "Zenith",
+        "streetType": "LOOP",
+        "propertyType": "Condominium",
+        "parcelID": "224000647",
+        "neighborhood": "R09CR142 - MERIDIAN PARK SIDE",
+        "acreage": ".03"
+    },
+    {
+        "name": "GILMORE STACIE L,",
+        "number": "130",
+        "street": "Zenith",
+        "streetType": "LOOP",
+        "propertyType": "Condominium",
+        "parcelID": "224000638",
+        "neighborhood": "R09CR142 - MERIDIAN PARK SIDE",
+        "acreage": ".04"
+    },
+    {
+        "name": "IRBY CHRISTOPHER L,",
+        "number": "131",
+        "street": "Zenith",
+        "streetType": "LOOP",
+        "propertyType": "Condominium",
+        "parcelID": "224000648",
+        "neighborhood": "R09CR142 - MERIDIAN PARK SIDE",
+        "acreage": ".03"
+    },
+    {
+        "name": "REEVES AMBER MICHELLE,",
+        "number": "132",
+        "street": "Zenith",
+        "streetType": "LOOP",
+        "propertyType": "Condominium",
+        "parcelID": "224000639",
+        "neighborhood": "R09CR142 - MERIDIAN PARK SIDE",
+        "acreage": ".04"
+    },
+    {
+        "name": "FISHER MARY ANN,",
+        "number": "133",
+        "street": "Zenith",
+        "streetType": "LOOP",
+        "propertyType": "Condominium",
+        "parcelID": "224000649",
+        "neighborhood": "R09CR142 - MERIDIAN PARK SIDE",
+        "acreage": ".03"
+    },
+    {
+        "name": "NDOUR NDEYE,",
+        "number": "134",
+        "street": "Zenith",
+        "streetType": "LOOP",
+        "propertyType": "Condominium",
+        "parcelID": "224000640",
+        "neighborhood": "R09CR142 - MERIDIAN PARK SIDE",
+        "acreage": ".04"
+    },
+    {
+        "name": "REYES EMMANUEL TORRES & ZAIMARIE, VARELA-CLASS",
+        "number": "135",
+        "street": "Zenith",
+        "streetType": "LOOP",
+        "propertyType": "Condominium",
+        "parcelID": "224000650",
+        "neighborhood": "R09CR142 - MERIDIAN PARK SIDE",
+        "acreage": ".03"
+    },
+    {
+        "name": "CLARK DYVAUN A, HUNTER LAVERNE C",
+        "number": "136",
+        "street": "Zenith",
+        "streetType": "LOOP",
+        "propertyType": "Condominium",
+        "parcelID": "224000641",
+        "neighborhood": "R09CR142 - MERIDIAN PARK SIDE",
+        "acreage": ".04"
+    },
+    {
+        "name": "NOBLE KEANNA,",
+        "number": "137",
+        "street": "Zenith",
+        "streetType": "LOOP",
+        "propertyType": "Condominium",
+        "parcelID": "224000651",
+        "neighborhood": "R09CR142 - MERIDIAN PARK SIDE",
+        "acreage": ".03"
+    },
+    {
+        "name": "DONNELLY JONATHAN E,",
+        "number": "138",
+        "street": "Zenith",
+        "streetType": "LOOP",
+        "propertyType": "Condominium",
+        "parcelID": "224000642",
+        "neighborhood": "R09CR142 - MERIDIAN PARK SIDE",
+        "acreage": ".04"
+    },
+    {
+        "name": "CANADY ANTHONY,",
+        "number": "139",
+        "street": "Zenith",
+        "streetType": "LOOP",
+        "propertyType": "Condominium",
+        "parcelID": "224000652",
+        "neighborhood": "R09CR142 - MERIDIAN PARK SIDE",
+        "acreage": ".03"
+    },
+    {
+        "name": "ROBB MARVIN L JR, ROBB LISA MAINS",
+        "number": "801",
+        "street": "Zoeller",
+        "streetType": "CT",
+        "propertyType": "Residential Single Family",
+        "parcelID": "142000561",
+        "neighborhood": "R05SF055 - MASTERS",
+        "acreage": ".13"
+    },
+    {
+        "name": "KARIG ANNE H TR, RICHARD D KARIS & ANNE H KARIG LIVING TR",
+        "number": "802",
+        "street": "Zoeller",
+        "streetType": "CT",
+        "propertyType": "Residential Single Family",
+        "parcelID": "142000573",
+        "neighborhood": "R05SF055 - MASTERS",
+        "acreage": ".17"
+    },
+    {
+        "name": "WHITE ROBERT E, MASTILOVIC MLADENKA",
+        "number": "803",
+        "street": "Zoeller",
+        "streetType": "CT",
+        "propertyType": "Residential Single Family",
+        "parcelID": "142000562",
+        "neighborhood": "R05SF055 - MASTERS",
+        "acreage": ".1"
+    },
+    {
+        "name": "RAMSEY JOSEPH LEWIS,",
+        "number": "804",
+        "street": "Zoeller",
+        "streetType": "CT",
+        "propertyType": "Residential Single Family",
+        "parcelID": "142000574",
+        "neighborhood": "R05SF055 - MASTERS",
+        "acreage": ".12"
+    },
+    {
+        "name": "DESAULNIERS EUGENE R, DESAULNIERS GEORGINA J",
+        "number": "805",
+        "street": "Zoeller",
+        "streetType": "CT",
+        "propertyType": "Residential Single Family",
+        "parcelID": "142000585",
+        "neighborhood": "R05SF055 - MASTERS",
+        "acreage": ".1"
+    },
+    {
+        "name": "BATES MATTHEW D TR, MATTHEW BATES LIVING TRUST",
+        "number": "807",
+        "street": "Zoeller",
+        "streetType": "CT",
+        "propertyType": "Residential Single Family",
+        "parcelID": "142000584",
+        "neighborhood": "R05SF055 - MASTERS",
+        "acreage": ".09"
+    },
+    {
+        "name": "PREGEL MI S,",
+        "number": "808",
+        "street": "Zoeller",
+        "streetType": "CT",
+        "propertyType": "Residential Single Family",
+        "parcelID": "142000575",
+        "neighborhood": "R05SF055 - MASTERS",
+        "acreage": ".16"
+    },
+    {
+        "name": "MEYERS JAMES F, MEYERS PATRICIA A",
+        "number": "809",
+        "street": "Zoeller",
+        "streetType": "CT",
+        "propertyType": "Residential Single Family",
+        "parcelID": "142000524",
+        "neighborhood": "R05SF055 - MASTERS",
+        "acreage": ".1"
+    }
+]

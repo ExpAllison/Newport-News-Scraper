@@ -1,0 +1,102 @@
+[
+    {
+        "number": "904",
+        "street": "Wheeler",
+        "streetType": "DR"
+    },
+    {
+        "number": "16",
+        "street": "Whites",
+        "streetType": "LN"
+    },
+    {
+        "number": "11",
+        "street": "Whittier",
+        "streetType": "AVE"
+    },
+    {
+        "number": "3011",
+        "street": "Wickham",
+        "streetType": "AVE"
+    },
+    {
+        "number": "855",
+        "street": "Wilderness",
+        "streetType": "WAY"
+    },
+    {
+        "number": "13",
+        "street": "Williamson",
+        "streetType": "DR"
+    },
+    {
+        "number": "716",
+        "street": "Willow",
+        "streetType": "DR"
+    },
+    {
+        "number": "1198",
+        "street": "Willow",
+        "streetType": "DR"
+    },
+    {
+        "number": "1204",
+        "street": "Willow",
+        "streetType": "DR"
+    },
+    {
+        "number": "1198",
+        "street": "Willow Green",
+        "streetType": "DR"
+    },
+    {
+        "number": "915",
+        "street": "Willow",
+        "streetType": "PT"
+    },
+    {
+        "number": "782",
+        "street": "Windbrook",
+        "streetType": "CIR"
+    },
+    {
+        "number": "147",
+        "street": "Windsor Castle",
+        "streetType": "DR"
+    },
+    {
+        "number": "218",
+        "street": "Windy Ridge",
+        "streetType": "LN"
+    },
+    {
+        "number": "1570",
+        "street": "Winthrope",
+        "streetType": "DR"
+    },
+    {
+        "number": "438",
+        "street": "Woodbrook",
+        "streetType": ""
+    },
+    {
+        "number": "721",
+        "street": "Woodfin",
+        "streetType": "RD"
+    },
+    {
+        "number": "410",
+        "street": "Woodroof",
+        "streetType": "RD"
+    },
+    {
+        "number": "828",
+        "street": "Worcester",
+        "streetType": "WAY"
+    },
+    {
+        "number": "902",
+        "street": "Wynstone",
+        "streetType": "CT"
+    }
+]
