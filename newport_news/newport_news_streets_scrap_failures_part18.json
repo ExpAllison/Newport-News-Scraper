@@ -1,0 +1,87 @@
+[
+    {
+        "number": "128",
+        "street": "Racine",
+        "streetType": "DR"
+    },
+    {
+        "number": "50",
+        "street": "Raleigh",
+        "streetType": "RD"
+    },
+    {
+        "number": "559",
+        "street": "Red Hill",
+        "streetType": "RD"
+    },
+    {
+        "number": "402",
+        "street": "Regents",
+        "streetType": "CV"
+    },
+    {
+        "number": "134",
+        "street": "Rexford",
+        "streetType": "DR"
+    },
+    {
+        "number": "254",
+        "street": "Richneck",
+        "streetType": "RD"
+    },
+    {
+        "number": "99",
+        "street": "Richneck",
+        "streetType": "RD"
+    },
+    {
+        "number": "541",
+        "street": "Richneck",
+        "streetType": "RD"
+    },
+    {
+        "number": "10",
+        "street": "Ringo",
+        "streetType": "DR"
+    },
+    {
+        "number": "905",
+        "street": "River",
+        "streetType": "RD"
+    },
+    {
+        "number": "714",
+        "street": "River Rock",
+        "streetType": "WAY"
+    },
+    {
+        "number": "442",
+        "street": "Rivers Ridge",
+        "streetType": "CIR"
+    },
+    {
+        "number": "1633",
+        "street": "Roanoke",
+        "streetType": "AVE"
+    },
+    {
+        "number": "3400",
+        "street": "Roanoke",
+        "streetType": "AVE"
+    },
+    {
+        "number": "204",
+        "street": "Robin",
+        "streetType": "DR"
+    },
+    {
+        "number": "211",
+        "street": "Robinson",
+        "streetType": "DR"
+    },
+    {
+        "number": "46",
+        "street": "Roffman",
+        "streetType": "PL"
+    }
+]

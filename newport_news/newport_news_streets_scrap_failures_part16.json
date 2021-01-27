@@ -1,0 +1,72 @@
+[
+    {
+        "number": "2800",
+        "street": "Oak",
+        "streetType": "AVE"
+    },
+    {
+        "number": "5901",
+        "street": "Old",
+        "streetType": "AVE"
+    },
+    {
+        "number": "14400",
+        "street": "Old Courthouse",
+        "streetType": "WAY"
+    },
+    {
+        "number": "1075",
+        "street": "Old Denbigh",
+        "streetType": "BLVD"
+    },
+    {
+        "number": "11",
+        "street": "Old Oyster Point",
+        "streetType": "RD"
+    },
+    {
+        "number": "2",
+        "street": "Oneonta",
+        "streetType": "DR"
+    },
+    {
+        "number": "2511",
+        "street": "Orcutt",
+        "streetType": "AVE"
+    },
+    {
+        "number": "105",
+        "street": "Osprey",
+        "streetType": "WAY"
+    },
+    {
+        "number": "531",
+        "street": "Oyster Point",
+        "streetType": "RD"
+    },
+    {
+        "number": "217",
+        "street": "Palen",
+        "streetType": "AVE"
+    },
+    {
+        "number": "408",
+        "street": "Pam",
+        "streetType": "LN"
+    },
+    {
+        "number": "60",
+        "street": "Park",
+        "streetType": "AVE"
+    },
+    {
+        "number": "75",
+        "street": "Park Hill",
+        "streetType": "CIR"
+    },
+    {
+        "number": "5588",
+        "street": "Patricia",
+        "streetType": "DR"
+    }
+]

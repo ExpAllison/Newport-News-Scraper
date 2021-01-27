@@ -1,0 +1,87 @@
+[
+    {
+        "number": "876",
+        "street": "Miller Creek",
+        "streetType": "LN"
+    },
+    {
+        "number": "99",
+        "street": "Miller",
+        "streetType": "RD"
+    },
+    {
+        "number": "304",
+        "street": "Mimosa",
+        "streetType": "DR"
+    },
+    {
+        "number": "225",
+        "street": "Misty Point",
+        "streetType": "LN"
+    },
+    {
+        "number": "241",
+        "street": "Misty Point",
+        "streetType": "LN"
+    },
+    {
+        "number": "119",
+        "street": "Monarch",
+        "streetType": "DR"
+    },
+    {
+        "number": "606",
+        "street": "Morris",
+        "streetType": "DR"
+    },
+    {
+        "number": "0",
+        "street": "Moyer",
+        "streetType": "RD"
+    },
+    {
+        "number": "909",
+        "street": "Moyer",
+        "streetType": "RD"
+    },
+    {
+        "number": "109",
+        "street": "Museum",
+        "streetType": "PKWY"
+    },
+    {
+        "number": "322",
+        "street": "Nantucket",
+        "streetType": "PL"
+    },
+    {
+        "number": "302",
+        "street": "Nesbitt",
+        "streetType": "CT"
+    },
+    {
+        "number": "643",
+        "street": "Newman",
+        "streetType": "DR"
+    },
+    {
+        "number": "81",
+        "street": "Nicewood",
+        "streetType": "DR"
+    },
+    {
+        "number": "405",
+        "street": "Nicewood",
+        "streetType": "DR"
+    },
+    {
+        "number": "21",
+        "street": "Normandy",
+        "streetType": "LN"
+    },
+    {
+        "number": "612",
+        "street": "North",
+        "streetType": "AVE"
+    }
+]

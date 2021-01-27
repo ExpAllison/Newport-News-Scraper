@@ -1,0 +1,47 @@
+[
+    {
+        "number": "148",
+        "street": "Ruston",
+        "streetType": "DR"
+    },
+    {
+        "number": "201",
+        "street": "Saint Lo",
+        "streetType": "CT"
+    },
+    {
+        "number": "68",
+        "street": "Sandra",
+        "streetType": "DR"
+    },
+    {
+        "number": "400",
+        "street": "Savage",
+        "streetType": "DR"
+    },
+    {
+        "number": "124",
+        "street": "Schooner",
+        "streetType": "DR"
+    },
+    {
+        "number": "257",
+        "street": "Seasons",
+        "streetType": "TRL"
+    },
+    {
+        "number": "201",
+        "street": "Shadywood",
+        "streetType": "DR"
+    },
+    {
+        "number": "217",
+        "street": "Sherbrooke",
+        "streetType": "DR"
+    },
+    {
+        "number": "1610",
+        "street": "Shiloh",
+        "streetType": "PL"
+    }
+]

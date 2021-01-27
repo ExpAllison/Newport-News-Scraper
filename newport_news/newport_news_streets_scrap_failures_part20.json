@@ -1,0 +1,52 @@
+[
+    {
+        "number": "2810",
+        "street": "Short",
+        "streetType": "ST"
+    },
+    {
+        "number": "56",
+        "street": "Sinton",
+        "streetType": "RD"
+    },
+    {
+        "number": "3",
+        "street": "Smith",
+        "streetType": "LN"
+    },
+    {
+        "number": "613",
+        "street": "South",
+        "streetType": "AVE"
+    },
+    {
+        "number": "236",
+        "street": "Southlake",
+        "streetType": "PL"
+    },
+    {
+        "number": "459",
+        "street": "Springmont",
+        "streetType": "CT"
+    },
+    {
+        "number": "115",
+        "street": "Stag",
+        "streetType": "TER"
+    },
+    {
+        "number": "124",
+        "street": "Stage",
+        "streetType": "RD"
+    },
+    {
+        "number": "137",
+        "street": "Stage",
+        "streetType": "RD"
+    },
+    {
+        "number": "618",
+        "street": "Sterling",
+        "streetType": "ST"
+    }
+]

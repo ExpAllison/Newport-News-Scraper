@@ -1,0 +1,62 @@
+[
+    {
+        "number": "213",
+        "street": "Pear",
+        "streetType": "AVE"
+    },
+    {
+        "number": "104",
+        "street": "Pelican",
+        "streetType": "CV"
+    },
+    {
+        "number": "237",
+        "street": "Petersburg",
+        "streetType": "CT"
+    },
+    {
+        "number": "790",
+        "street": "Pilot House",
+        "streetType": "DR"
+    },
+    {
+        "number": "129",
+        "street": "Pine Bluff",
+        "streetType": "DR"
+    },
+    {
+        "number": "107",
+        "street": "Pinewood",
+        "streetType": "CT"
+    },
+    {
+        "number": "82",
+        "street": "Pointers",
+        "streetType": "GLN"
+    },
+    {
+        "number": "380",
+        "street": "Poplar",
+        "streetType": "AVE"
+    },
+    {
+        "number": "395",
+        "street": "Poplar",
+        "streetType": "AVE"
+    },
+    {
+        "number": "1224",
+        "street": "Powder House",
+        "streetType": "DR"
+    },
+    {
+        "number": "232",
+        "street": "Prince Drew",
+        "streetType": "RD"
+    },
+    {
+        "number": "450",
+        "street": "Putney",
+        "streetType": "LN"
+    }
+]
