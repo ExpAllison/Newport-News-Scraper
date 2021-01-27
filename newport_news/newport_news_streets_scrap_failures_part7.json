@@ -1,0 +1,77 @@
+[
+    {
+        "number": "31",
+        "street": "Deep Creek",
+        "streetType": "RD"
+    },
+    {
+        "number": "104",
+        "street": "Deep Spring",
+        "streetType": "DR"
+    },
+    {
+        "number": "126",
+        "street": "Delmar",
+        "streetType": "LN"
+    },
+    {
+        "number": "14224",
+        "street": "Deloice",
+        "streetType": "CRES"
+    },
+    {
+        "number": "433",
+        "street": "Denbigh",
+        "streetType": "BLVD"
+    },
+    {
+        "number": "358",
+        "street": "Deputy",
+        "streetType": "LN"
+    },
+    {
+        "number": "390",
+        "street": "Deputy",
+        "streetType": "LN"
+    },
+    {
+        "number": "86",
+        "street": "Dillwyn",
+        "streetType": "DR"
+    },
+    {
+        "number": "322",
+        "street": "Dogwood",
+        "streetType": "DR"
+    },
+    {
+        "number": "2",
+        "street": "Douglas",
+        "streetType": "DR"
+    },
+    {
+        "number": "941",
+        "street": "Drivers",
+        "streetType": "LN"
+    },
+    {
+        "number": "424",
+        "street": "Dunmore",
+        "streetType": "DR"
+    },
+    {
+        "number": "891",
+        "street": "Eastnor",
+        "streetType": "CT"
+    },
+    {
+        "number": "438",
+        "street": "Eastwood",
+        "streetType": "DR"
+    },
+    {
+        "number": "121",
+        "street": "Edmond",
+        "streetType": "DR"
+    }
+]

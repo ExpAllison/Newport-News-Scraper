@@ -1,0 +1,57 @@
+[
+    {
+        "number": "855",
+        "street": "Elder",
+        "streetType": "RD"
+    },
+    {
+        "number": "729",
+        "street": "Elliffe",
+        "streetType": "RD"
+    },
+    {
+        "number": "1203",
+        "street": "Emma",
+        "streetType": "DR"
+    },
+    {
+        "number": "430",
+        "street": "Eureka",
+        "streetType": "LOOP"
+    },
+    {
+        "number": "3",
+        "street": "Fairway",
+        "streetType": "LN"
+    },
+    {
+        "number": "141",
+        "street": "Fenwood",
+        "streetType": "CRES"
+    },
+    {
+        "number": "116",
+        "street": "Fischer",
+        "streetType": "DR"
+    },
+    {
+        "number": "119",
+        "street": "Fischer",
+        "streetType": "DR"
+    },
+    {
+        "number": "400",
+        "street": "Flint",
+        "streetType": "DR"
+    },
+    {
+        "number": "37",
+        "street": "Forrest",
+        "streetType": "DR"
+    },
+    {
+        "number": "510",
+        "street": "Frank",
+        "streetType": "LN"
+    }
+]

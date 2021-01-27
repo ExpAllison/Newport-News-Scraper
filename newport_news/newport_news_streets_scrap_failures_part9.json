@@ -1,0 +1,57 @@
+[
+    {
+        "number": "731",
+        "street": "Galahad",
+        "streetType": "DR"
+    },
+    {
+        "number": "16",
+        "street": "Garland",
+        "streetType": "CT"
+    },
+    {
+        "number": "875",
+        "street": "Garrow",
+        "streetType": "RD"
+    },
+    {
+        "number": "1510",
+        "street": "Gatewood",
+        "streetType": "RD"
+    },
+    {
+        "number": "137",
+        "street": "Gingerwood",
+        "streetType": "CT"
+    },
+    {
+        "number": "6",
+        "street": "Gosnold",
+        "streetType": "PL"
+    },
+    {
+        "number": "1412",
+        "street": "Granada",
+        "streetType": "CT"
+    },
+    {
+        "number": "208",
+        "street": "Graves",
+        "streetType": "CIR"
+    },
+    {
+        "number": "46",
+        "street": "Green Oaks",
+        "streetType": "RD"
+    },
+    {
+        "number": "826",
+        "street": "Greystone",
+        "streetType": "TRCE"
+    },
+    {
+        "number": "740",
+        "street": "Gunby",
+        "streetType": "RD"
+    }
+]

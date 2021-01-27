@@ -1,0 +1,67 @@
+[
+    {
+        "number": "2",
+        "street": "Conway",
+        "streetType": "RD"
+    },
+    {
+        "number": "169",
+        "street": "Corinthia",
+        "streetType": "DR"
+    },
+    {
+        "number": "219",
+        "street": "Cornell",
+        "streetType": "DR"
+    },
+    {
+        "number": "5",
+        "street": "Courtney",
+        "streetType": "AVE"
+    },
+    {
+        "number": "639",
+        "street": "Creasy",
+        "streetType": "AVE"
+    },
+    {
+        "number": "201",
+        "street": "Cremona",
+        "streetType": "DR"
+    },
+    {
+        "number": "461",
+        "street": "Crosland",
+        "streetType": "CT"
+    },
+    {
+        "number": "52",
+        "street": "Culpepper",
+        "streetType": "AVE"
+    },
+    {
+        "number": "168",
+        "street": "D Lane",
+        "streetType": "DR"
+    },
+    {
+        "number": "7",
+        "street": "Darlene",
+        "streetType": "LN"
+    },
+    {
+        "number": "12675",
+        "street": "Day",
+        "streetType": "CIR"
+    },
+    {
+        "number": "12860",
+        "street": "Day",
+        "streetType": "CIR"
+    },
+    {
+        "number": "12809",
+        "street": "Daybreak",
+        "streetType": "CIR"
+    }
+]
