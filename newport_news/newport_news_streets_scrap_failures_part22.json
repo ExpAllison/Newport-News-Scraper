@@ -1,0 +1,82 @@
+[
+    {
+        "number": "213",
+        "street": "Troy",
+        "streetType": "PL"
+    },
+    {
+        "number": "133",
+        "street": "Tuckahoe",
+        "streetType": "DR"
+    },
+    {
+        "number": "137",
+        "street": "Tuckahoe",
+        "streetType": "DR"
+    },
+    {
+        "number": "685",
+        "street": "Turnberry",
+        "streetType": "BLVD"
+    },
+    {
+        "number": "106",
+        "street": "Tyner",
+        "streetType": "DR"
+    },
+    {
+        "number": "1443",
+        "street": "Ventura",
+        "streetType": "WAY"
+    },
+    {
+        "number": "127",
+        "street": "Villa",
+        "streetType": "RD"
+    },
+    {
+        "number": "717",
+        "street": "Village",
+        "streetType": "PKWY"
+    },
+    {
+        "number": "20",
+        "street": "Walnut",
+        "streetType": "GRV"
+    },
+    {
+        "number": "2875",
+        "street": "Warwick",
+        "streetType": "BLVD"
+    },
+    {
+        "number": "10190",
+        "street": "Warwick",
+        "streetType": "BLVD"
+    },
+    {
+        "number": "3508",
+        "street": "Washington",
+        "streetType": "AVE"
+    },
+    {
+        "number": "461",
+        "street": "Waverly",
+        "streetType": "PL"
+    },
+    {
+        "number": "112",
+        "street": "Wellesley",
+        "streetType": "DR"
+    },
+    {
+        "number": "69",
+        "street": "Wendfield",
+        "streetType": "CIR"
+    },
+    {
+        "number": "802",
+        "street": "Westgate",
+        "streetType": "CT"
+    }
+]

@@ -1,0 +1,72 @@
+[
+    {
+        "number": "439",
+        "street": "Summer",
+        "streetType": "DR"
+    },
+    {
+        "number": "716",
+        "street": "Sunnywood",
+        "streetType": "RD"
+    },
+    {
+        "number": "348",
+        "street": "Susan Constant",
+        "streetType": "DR"
+    },
+    {
+        "number": "138",
+        "street": "Sycamore",
+        "streetType": "AVE"
+    },
+    {
+        "number": "304",
+        "street": "Tahoe",
+        "streetType": "DR"
+    },
+    {
+        "number": "131",
+        "street": "Tazewell",
+        "streetType": "RD"
+    },
+    {
+        "number": "725",
+        "street": "Terrace",
+        "streetType": "DR"
+    },
+    {
+        "number": "337",
+        "street": "Thalia",
+        "streetType": "DR"
+    },
+    {
+        "number": "805",
+        "street": "Thimbleby",
+        "streetType": "DR"
+    },
+    {
+        "number": "141",
+        "street": "Tidal",
+        "streetType": "DR"
+    },
+    {
+        "number": "4318",
+        "street": "Tindall",
+        "streetType": "CT"
+    },
+    {
+        "number": "670",
+        "street": "Town Center",
+        "streetType": "DR"
+    },
+    {
+        "number": "52",
+        "street": "Towne Square",
+        "streetType": "DR"
+    },
+    {
+        "number": "697",
+        "street": "Trails",
+        "streetType": "LN"
+    }
+]
