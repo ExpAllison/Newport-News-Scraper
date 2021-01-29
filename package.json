@@ -1,0 +1,23 @@
+{
+  "name": "newport-news-scraper",
+  "version": "1.0.0",
+  "description": "A web scraper for property information in Newport News, VA",
+  "main": "newport_news_scraper.js",
+  "dependencies": {
+    "puppeteer": "^5.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ExpAllison/Newport-News-Scraper.git"
+  },
+  "author": "ExpAllison",
+  "license": "GPL-3.0-only",
+  "bugs": {
+    "url": "https://github.com/ExpAllison/Newport-News-Scraper/issues"
+  },
+  "homepage": "https://github.com/ExpAllison/Newport-News-Scraper#readme"
+}
