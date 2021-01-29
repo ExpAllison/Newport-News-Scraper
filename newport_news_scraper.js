@@ -1,6 +1,10 @@
 const puppeteer = require('puppeteer');
 const fs  = require('fs')
 
+const JsonPersister = require("./persistence/json-persister.js");
+
+const jsonPersister = new JsonPersister();
+
 const streetBatchSize = 100;
 
 var browser;
@@ -315,18 +319,13 @@ let scrapeAllStreets = async (streetList, fileNum) => {
 
   await browser.close();
 
-  var allStreetData = JSON.stringify(allStreets, null, 4);
-  fs.writeFile('newport_news/newport_news_streets_part' + fileNum + '.json', allStreetData, (err) => {
-    if(err)
-      throw err;
-    console.log('All street data is saved!');
-  });
-  var allFailData = JSON.stringify(allFailures, null, 4);
-  fs.writeFile('newport_news/newport_news_streets_scrap_failures_part' + fileNum + '.json', allFailData, (err) => {
-    if(err)
-      throw err;
-    console.log('All failed scrape data is saved!');
-  });
+  let persistOptions = {
+    city: 'newport_news',
+    batchNumber: fileNum
+  };
+
+  jsonPersister.persist(persistOptions, allStreets);
+  jsonPersister.persist_failure(persistOptions, allFailures);
 }
 
 
