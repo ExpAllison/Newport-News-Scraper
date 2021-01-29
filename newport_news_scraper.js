@@ -1,6 +1,8 @@
 const puppeteer = require('puppeteer');
 const fs  = require('fs')
 
+const streetBatchSize = 100;
+
 var browser;
 var page;
 
@@ -329,8 +331,8 @@ let scrapeAllStreets = async (streetList, fileNum) => {
 
 
 let scrapeDividedStreetList = async (streetList, startNum=0) => {
-  for(var i = startNum; i < streetList.length; i += 100){
-    await scrapeAllStreets(streetList.slice(i, i + 100), i/100 + 1);
+  for(var i = startNum; i < streetList.length; i += streetBatchSize){
+    await scrapeAllStreets(streetList.slice(i, i + streetBatchSize), i/streetBatchSize + 1);
   }
 }
 
