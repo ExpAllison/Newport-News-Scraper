@@ -5,11 +5,11 @@ module.exports = class JsonPersister {
   
   }
 
-  persist(persistOptions, propertyRecordBatch) {
+  async persist(persistOptions, propertyRecordBatch) {
 
     var propertyDataBatchJson = JSON.stringify(propertyRecordBatch, null, 4);
 
-    var jsonFilePath = `${persistOptions.city}/${persistOptions.city}_streets_part${persistOptions.batchNumber}.json`;
+    var jsonFilePath = `${persistOptions.cityId}/${persistOptions.cityId}_streets_part${persistOptions.batchNumber}.json`;
 
     fs.writeFile(jsonFilePath, propertyDataBatchJson, (err) => {
       if(err)
@@ -18,11 +18,11 @@ module.exports = class JsonPersister {
     });
   }
 
-  persist_failure(persistOptions, failedPropertyRecordBatch) {
+  async persist_failure(persistOptions, failedPropertyRecordBatch) {
     
     var failedPropertyDataBatchJson = JSON.stringify(failedPropertyRecordBatch, null, 4);
 
-    var jsonFilePath = `${persistOptions.city}/${persistOptions.city}_streets_scrap_failures_part${persistOptions.batchNumber}.json`;
+    var jsonFilePath = `${persistOptions.cityId}/${persistOptions.cityId}_streets_scrap_failures_part${persistOptions.batchNumber}.json`;
     
     fs.writeFile(jsonFilePath, failedPropertyDataBatchJson, (err) => {
       if(err)

@@ -4,6 +4,7 @@
   "description": "A web scraper for property information in Newport News, VA",
   "main": "newport_news_scraper.js",
   "dependencies": {
+    "csv-writer": "^1.6.0",
     "puppeteer": "^5.5.0"
   },
   "devDependencies": {},

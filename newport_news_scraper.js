@@ -2,10 +2,15 @@ const puppeteer = require('puppeteer');
 const fs  = require('fs')
 
 const JsonPersister = require("./persistence/json-persister.js");
+const CsvPersister = require("./persistence/csv-persister.js");
 
 const jsonPersister = new JsonPersister();
+const csvPersister = new CsvPersister({
+  propertyRecordsCsvFilePath: './property_records.csv',
+  propertyRecordsFailureCsvFilePath: './property_records_failures.csv',
+});
 
-const streetBatchSize = 100;
+const streetBatchSize = 1;
 
 var browser;
 var page;
@@ -320,12 +325,17 @@ let scrapeAllStreets = async (streetList, fileNum) => {
   await browser.close();
 
   let persistOptions = {
-    city: 'newport_news',
+    cityId: 'newport_news',
+    cityLabel: 'Newport News',
     batchNumber: fileNum
   };
 
-  jsonPersister.persist(persistOptions, allStreets);
-  jsonPersister.persist_failure(persistOptions, allFailures);
+  /*
+  await jsonPersister.persist(persistOptions, allStreets);
+  await jsonPersister.persist_failure(persistOptions, allFailures);
+  */
+  await csvPersister.persist(persistOptions, allStreets);
+  await csvPersister.persist_failure(persistOptions, allFailures);
 }
 
 
