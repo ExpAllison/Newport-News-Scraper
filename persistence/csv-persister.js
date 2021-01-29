@@ -1,8 +1,16 @@
 const createCsvWriter = require('csv-writer').createObjectCsvWriter;
 
+/**
+ * A persister class for persisting to a CSV.
+ */
 module.exports = class CsvPersister {
 
+  /**
+   * Called when a CsvPersister is instantiated. Sets two CsvWriters, one for writing the property records and one for writing the failures.
+   * @param {object} persisterOptions - file path data CsvPersister needs to instantiate
+   */
   constructor(persisterOptions) {
+    //set the file path and the columns for the property records CSV
     this.propertyRecordCsvWriter = createCsvWriter({
       path: persisterOptions.propertyRecordsCsvFilePath,
       header: [
@@ -19,6 +27,7 @@ module.exports = class CsvPersister {
       ]
     });
 
+    //set the file path and the columns for the failed property records CSV
     this.propertyRecordFailureCsvWriter = createCsvWriter({
       path: persisterOptions.propertyRecordsFailureCsvFilePath,
       header: [
@@ -31,6 +40,11 @@ module.exports = class CsvPersister {
     });
   }
 
+  /**
+   * Add a City and Date Inserted Property to the records, then insert the records into the CSV.
+   * @param {object} persistOptions - any object for any values that need to be set for this particular persist call
+   * @param {array} propertyRecordBatch - the array of records to be persisted
+   */
   async persist(persistOptions, propertyRecordBatch) {
     if(propertyRecordBatch && propertyRecordBatch.length){
       let dateInsertedString = new Date().toLocaleString();
@@ -48,6 +62,11 @@ module.exports = class CsvPersister {
     }
   }
 
+  /**
+   * Add a City and Date Inserted Property to the records, then insert the records into the CSV.
+   * @param {object} persistOptions - any object for any values that need to be set for this particular persist call
+   * @param {array} failedPropertyRecordBatch - the array of failed records to be persisted
+   */
   async persist_failure(persistOptions, failedPropertyRecordBatch) {
     if(failedPropertyRecordBatch && failedPropertyRecordBatch.length){
       let dateInsertedString = new Date().toLocaleString();

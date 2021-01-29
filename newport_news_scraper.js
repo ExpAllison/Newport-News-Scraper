@@ -1,6 +1,7 @@
 const puppeteer = require('puppeteer');
 const fs  = require('fs')
 
+// import the persist code and instantiate each persister
 const JsonPersister = require("./persistence/json-persister.js");
 const CsvPersister = require("./persistence/csv-persister.js");
 
@@ -10,7 +11,14 @@ const csvPersister = new CsvPersister({
   propertyRecordsFailureCsvFilePath: './property_records_failures.csv',
 });
 
-const streetBatchSize = 1;
+//configure the list of persisters that we would like to invoke for our retrieved records
+const persisters = [
+  jsonPersister,
+  csvPersister
+];
+
+//the number of street to batch for one part
+const streetBatchSize = 100;
 
 var browser;
 var page;
@@ -330,12 +338,11 @@ let scrapeAllStreets = async (streetList, fileNum) => {
     batchNumber: fileNum
   };
 
-  /*
-  await jsonPersister.persist(persistOptions, allStreets);
-  await jsonPersister.persist_failure(persistOptions, allFailures);
-  */
-  await csvPersister.persist(persistOptions, allStreets);
-  await csvPersister.persist_failure(persistOptions, allFailures);
+  //for each persister defined at the top, run its persist and persist_failure methods to let them do their thing
+  for (const persister of persisters) {
+    await persister.persist(persistOptions, allStreets);
+    await persister.persist_failure(persistOptions, allFailures);
+  }
 }
 
 
