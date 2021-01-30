@@ -2,14 +2,16 @@ const puppeteer = require('puppeteer');
 const fs  = require('fs')
 
 // import the persist code and instantiate each persister
-const JsonPersister = require("./persistence/json-persister.js");
-const CsvPersister = require("./persistence/csv-persister.js");
+const JsonPersister = require("./persistence/json-persister.js")
+const CsvPersister = require("./persistence/csv-persister.js")
+const ScrapeStateManager = require('./scrape_state_manager.js')
 
 const jsonPersister = new JsonPersister();
 const csvPersister = new CsvPersister({
   propertyRecordsCsvFilePath: './property_records.csv',
   propertyRecordsFailureCsvFilePath: './property_records_failures.csv',
 });
+const scrapeStateManager = new ScrapeStateManager('scrape_state_newport_news.json')
 
 //configure the list of persisters that we would like to invoke for our retrieved records
 const persisters = [
@@ -18,7 +20,10 @@ const persisters = [
 ];
 
 //the number of street to batch for one part
-const streetBatchSize = 100;
+const streetBatchSize = 2;
+
+//if true, try to pick up where you left off, if false, forge ahead as though beginning anew
+const loadFromPreviousStateIfAble = true
 
 var browser;
 var page;
@@ -332,17 +337,24 @@ let scrapeAllStreets = async (streetList, fileNum) => {
 
   await browser.close();
 
+  //for each persister defined at the top, run its persist and persist_failure methods to let them do their thing
   let persistOptions = {
     cityId: 'newport_news',
     cityLabel: 'Newport News',
     batchNumber: fileNum
-  };
-
-  //for each persister defined at the top, run its persist and persist_failure methods to let them do their thing
-  for (const persister of persisters) {
-    await persister.persist(persistOptions, allStreets);
-    await persister.persist_failure(persistOptions, allFailures);
   }
+
+  for (const persister of persisters) {
+    await persister.persist(persistOptions, allStreets)
+    await persister.persist_failure(persistOptions, allFailures)
+  }
+
+  //save state to load for next time
+  let latest = {
+    street: streetList[streetList.length -1],
+    batchNumber: fileNum
+  }
+  scrapeStateManager.updateLatest(latest)
 }
 
 
@@ -353,7 +365,40 @@ let scrapeDividedStreetList = async (streetList, startNum=0) => {
 }
 
 var streetList = readStreetList('./newport_news_streets.json');
-var allStreets = scrapeDividedStreetList(streetList['Newport News'], 0);
+
+let streetListNewportNews = streetList['Newport News']
+let lastBatchNumber = 0 
+
+//if we selected to load from state and we have a state to load, let the state tell us what streets to check and what batch number to use.
+if(loadFromPreviousStateIfAble && scrapeStateManager.hasSavedState()){
+  console.log('Loading previous state from file')
+
+  //get latest state from file
+  scrapeStateLatest = scrapeStateManager.getLatest()
+
+  //get the index of the street from our list that matches our latest street. If we can't find one, this will be -1
+  indexOfLatestStreetNewportNews = streetListNewportNews.findIndex(
+    (street) => 
+      street.streetName == scrapeStateLatest?.street?.streetName && 
+      street.streetType == scrapeStateLatest?.street?.streetType
+  )
+  
+  //if we could find an index, shorten our array to use everything after that index and use the batch number from saved state
+  if(indexOfLatestStreetNewportNews != -1){
+    //calculate how far of the way through we are in percentage
+    completePercentage = Math.round((indexOfLatestStreetNewportNews / streetListNewportNews.length) * 100)
+
+    streetListNewportNews = streetListNewportNews.slice(indexOfLatestStreetNewportNews + 1)
+    lastBatchNumber = scrapeStateLatest.batchNumber
+
+    console.log(`Using saved state and starting from ${streetListNewportNews[0].streetName} ${streetListNewportNews[0].streetType} and batch ${lastBatchNumber + 1}`)
+    console.log(`${completePercentage}% of the way through`)
+  } else {
+    console.warn('Unable to use saved state, starting from the beginning')
+  }
+}
+
+var allStreets = scrapeDividedStreetList(streetListNewportNews, lastBatchNumber);
 
 //.contentpanel > div:nth-child(1) > table:nth-child(2) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(3) > td:nth-child(1) > center:nth-child(2) > table:nth-child(4) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(2) > font:nth-child(2)
 //.contentpanel > div:nth-child(1) > table:nth-child(2) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(3) > td:nth-child(1) > center:nth-child(2) > table:nth-child(3) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(2) > font:nth-child(2)

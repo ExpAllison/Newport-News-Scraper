@@ -58,7 +58,7 @@ module.exports = class CsvPersister {
       );
 
       await this.propertyRecordCsvWriter.writeRecords(propertyRecordBatchRows);
-      console.log('All street data is saved!');
+      console.log('All street data is saved to csv!');
     }
   }
 
@@ -80,7 +80,7 @@ module.exports = class CsvPersister {
       );
 
       await this.propertyRecordFailureCsvWriter.writeRecords(failedPropertyRecordBatchRows);
-      console.log('All failed street data is saved!');
+      console.log('All failed street data is saved to csv!');
     }
   }
 }

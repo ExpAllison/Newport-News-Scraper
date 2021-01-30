@@ -26,7 +26,7 @@ module.exports = class JsonPersister {
     fs.writeFile(jsonFilePath, propertyDataBatchJson, (err) => {
       if(err)
         throw err;
-      console.log('All street data is saved!');
+      console.log('All street data is saved to json!');
     });
   }
 
@@ -44,7 +44,7 @@ module.exports = class JsonPersister {
     fs.writeFile(jsonFilePath, failedPropertyDataBatchJson, (err) => {
       if(err)
         throw err;
-      console.log('All failed street data is saved!');
+      console.log('All failed street data is saved to json!');
     });
   }
 }
