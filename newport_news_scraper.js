@@ -2,8 +2,8 @@ const puppeteer = require('puppeteer');
 const fs  = require('fs')
 
 // import the persist code and instantiate each persister
-const JsonPersister = require("./persistence/json-persister.js")
-const CsvPersister = require("./persistence/csv-persister.js")
+const JsonPersister = require("./persistence/json_persister.js")
+const CsvPersister = require("./persistence/csv_persister.js")
 const ScrapeStateManager = require('./scrape_state_manager.js')
 
 const jsonPersister = new JsonPersister();
@@ -20,7 +20,7 @@ const persisters = [
 ];
 
 //the number of street to batch for one part
-const streetBatchSize = 2;
+const streetBatchSize = 100;
 
 //if true, try to pick up where you left off, if false, forge ahead as though beginning anew
 const loadFromPreviousStateIfAble = true
