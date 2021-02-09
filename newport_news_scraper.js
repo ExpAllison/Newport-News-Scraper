@@ -360,7 +360,7 @@ let scrapeAllStreets = async (streetList, fileNum) => {
 
 let scrapeDividedStreetList = async (streetList, startNum=0) => {
   for(var i = startNum; i < streetList.length; i += streetBatchSize){
-    await scrapeAllStreets(streetList.slice(i, i + streetBatchSize), i/streetBatchSize + 1);
+    await scrapeAllStreets(streetList.slice(i, i + streetBatchSize), Math.round(i/streetBatchSize) +1);
   }
 }
 
